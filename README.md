@@ -12,7 +12,7 @@ Graphing:
 The run_experiment script can be use to generate plots via:
 
 ```
-python run_experiment.py --plot
+python run_experiment.py --plot --threads -1 --seed 51391211 —-all
 ```
 
 Since the files output from the experiments follow a common naming scheme this will determine the problem, algorithm,
